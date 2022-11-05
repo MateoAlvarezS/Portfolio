@@ -1,11 +1,11 @@
-import "../styles/Navbar.css"
+import styles from "../styles/Navbar.module.css"
 
 const Navbar = () => {
   return (
     <header>
-      <nav className="nav">
+      <nav className={styles.nav}>
         <i className="fa-solid fa-user"></i>
-        <ul className="nav-links">
+        <ul className={styles['nav-links']}>
           <li>Sobre Mí</li>
           <li>Mis habilidades</li>
           <li>Mis proyectos</li>
