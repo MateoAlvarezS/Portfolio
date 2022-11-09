@@ -2,7 +2,7 @@ import styles from "../styles/Habilidades.module.css";
 
 const Habilidades = () => {
   return (
-    <div className={styles["habilidades-seccion"]}>
+    <div id="habilidades" className={styles["habilidades-seccion"]}>
       <h2>Mis habilidades</h2>
       <div className={styles.habilidades}>
         <div className={styles.habilidad}>

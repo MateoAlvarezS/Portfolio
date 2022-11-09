@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap");
+
+footer {
+  background-color: black;
+  padding-block: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer h1 {
+  color: white;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+}
+
+footer p {
+  color: white;
+  font-size: 3rem;
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+}
+
+@media (min-width: 510px) {
+  .footer h1,
+  .footer p {
+    font-size: 4rem;
+  }
+}

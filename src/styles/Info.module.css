@@ -26,6 +26,13 @@
   font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .info-text h2 {
+    text-align: left;
+  }
 }
 
 .info-text p {

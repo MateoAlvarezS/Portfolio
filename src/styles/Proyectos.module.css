@@ -1,0 +1,37 @@
+.proyectos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: 4rem;
+}
+
+.proyectos h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 5rem;
+    text-transform: uppercase;
+}
+
+.proyecto {
+    width: fit-content;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.proyecto a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.proyecto a img {
+    width: 10rem;
+}
+
+.proyecto a p {
+    color: black;
+    font-size: 1.2rem;
+}

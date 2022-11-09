@@ -2,7 +2,7 @@ import styles from "../styles/Info.module.css";
 
 const Info = () => {
   return (
-    <div className={styles.info}>
+    <div id="info" className={styles.info}>
       <div className={styles['info-text']}>
         <h2>Sobre Mi</h2>
         <p>

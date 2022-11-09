@@ -5,11 +5,11 @@ const Navbar = () => {
     <header>
       <nav className={styles.nav}>
         <i className="fa-solid fa-user"></i>
-        <ul className={styles['nav-links']}>
-          <li>Sobre Mí</li>
-          <li>Mis habilidades</li>
-          <li>Mis proyectos</li>
-        </ul>
+        <div className={styles['nav-links']}>
+          <a href="#info">Sobre Mí</a>
+          <a href="#habilidades">Mis habiadades</a>
+          <a href="#proyectos">Mis proyectos</a>
+        </div>
       </nav>
     </header>
   );
